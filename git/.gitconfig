@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Budhaditya Saha
+	email = budha.rocks@gmail.com
+[init]
+  defaultBranch = main
+[color]
+  ui = auto
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = white bold 52
+  newNormal = green bold
+  newHighlight = white bold 22
+[color "diff"]
+  meta = black
+  frag = blue bold
+  commit = black bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+
