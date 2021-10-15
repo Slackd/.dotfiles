@@ -133,8 +133,8 @@ if exists("&termguicolors") && exists("&winblend")
   set background=dark
   " Use codesmell_dark
   set fillchars+=vert:│
-  runtime ./colors/codesmell_dark.vim
-  colorscheme codesmell_dark
+  " runtime ./colors/codesmell_dark.vim
+  colorscheme onedark
 endif
 
 "}}}

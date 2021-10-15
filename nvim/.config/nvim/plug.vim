@@ -4,6 +4,7 @@ if has("nvim")
 
 "Interface Stuff
 Plug 'whatsthatsmell/codesmell_dark.vim'
+Plug 'joshdick/onedark.vim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'ryanoasis/vim-devicons'
