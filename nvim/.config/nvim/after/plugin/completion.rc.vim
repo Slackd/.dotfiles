@@ -47,7 +47,16 @@ cmp.setup {
   sources = {
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
+    { name = 'nvim_lua' },
+    { name = 'buffer', keyword_length = 5 },
+    { name = 'path' },
   },
+
+experimental = {
+    native_menu = false,
+    ghost_text = true,
+    },
+
 formatting = {
   format = function(entry, vim_item)
     -- fancy icons and a name of kind
@@ -57,7 +66,9 @@ formatting = {
     vim_item.menu = ({
       buffer = "[Buffer]",
       nvim_lsp = "[LSP]",
-      luasnip = "[LuaSnip]",
+      nvim_lua = "[api]",
+      path = "[path]",
+      luasnip = "[snip]",
       nvim_lua = "[Lua]",
       latex_symbols = "[Latex]",
     })[entry.source.name]
