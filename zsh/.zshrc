@@ -7,7 +7,7 @@ fi
 
 source ~/.zprofile
 source ~/.zsh/.zshrc
-
+source $HOME/.cargo/env
 
 alias luamake=/home/sam/Downloads/lua-language-server/3rd/luamake/luamake
 source ~/powerlevel10k/powerlevel10k.zsh-theme

@@ -107,3 +107,4 @@ source $HOME/.bash_aliases
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
+. "$HOME/.cargo/env"
