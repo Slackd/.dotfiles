@@ -134,7 +134,7 @@ if exists("&termguicolors") && exists("&winblend")
   " Use codesmell_dark
   set fillchars+=vert:│
   " runtime ./colors/codesmell_dark.vim
-  colorscheme onedark
+  colorscheme lucid
 endif
 
 "}}}

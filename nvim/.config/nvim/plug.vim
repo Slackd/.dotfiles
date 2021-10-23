@@ -10,24 +10,32 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'glepnir/dashboard-nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'cseelus/vim-colors-lucid'
+
 " Tabs and Buffers
 Plug 'hoob3rt/lualine.nvim'
 Plug 'akinsho/bufferline.nvim'
+
 " Git Plugins
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
+Plug 'lewis6991/gitsigns.nvim'
+
 " Telescope
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 " Formatting
 Plug 'windwp/nvim-autopairs'
 Plug 'kristijanhusak/defx-git'
 Plug 'kristijanhusak/defx-icons'
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'preservim/nerdcommenter'
+
 " LSP Stuff
 Plug 'neovim/nvim-lspconfig'
 Plug 'glepnir/lspsaga.nvim'
