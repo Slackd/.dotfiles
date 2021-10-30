@@ -3,14 +3,12 @@ call plug#begin(stdpath('data') . '/plugged')
 if has("nvim")
 
 "Interface Stuff
-Plug 'whatsthatsmell/codesmell_dark.vim'
-Plug 'joshdick/onedark.vim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'glepnir/dashboard-nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'cseelus/vim-colors-lucid'
+Plug 'mangeshrex/uwu.vim'
 
 " Tabs and Buffers
 Plug 'hoob3rt/lualine.nvim'
@@ -31,9 +29,6 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Formatting
 Plug 'windwp/nvim-autopairs'
-Plug 'kristijanhusak/defx-git'
-Plug 'kristijanhusak/defx-icons'
-Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'preservim/nerdcommenter'
 
 " LSP Stuff

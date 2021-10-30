@@ -131,10 +131,8 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   set background=dark
-  " Use codesmell_dark
   set fillchars+=vert:│
-  " runtime ./colors/codesmell_dark.vim
-  colorscheme lucid
+  colorscheme uwu
 endif
 
 "}}}
