@@ -131,7 +131,6 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   set background=dark
-  set fillchars+=vert:│
   colorscheme everforest
 endif
 
