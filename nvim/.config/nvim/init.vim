@@ -132,7 +132,7 @@ if exists("&termguicolors") && exists("&winblend")
   set pumblend=5
   set background=dark
   set fillchars+=vert:│
-  colorscheme uwu
+  colorscheme everforest
 endif
 
 "}}}

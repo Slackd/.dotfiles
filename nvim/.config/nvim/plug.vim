@@ -8,7 +8,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'glepnir/dashboard-nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'mangeshrex/uwu.vim'
+Plug 'sainnhe/everforest'
 
 " Tabs and Buffers
 Plug 'hoob3rt/lualine.nvim'
