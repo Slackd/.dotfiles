@@ -1,6 +1,6 @@
 # Alias's for multiple directory listing commands
-alias la='exa --icons --long --all --header --git' # show hidden files
-alias ll='exa --long --icons --header --git' # long listing format
+alias la='exa --long --all --header --git' # show hidden files
+alias ll='exa --long --header --git' # long listing format
 
 # Specific to me, for this system
 alias c='clear'
