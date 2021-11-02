@@ -49,11 +49,9 @@ OSH_THEME="font"
 # Add wisely, as too many completions slow down shell startup.
 completions=(
   git
-  composer
   ssh
   nvm 
   npm
-  conda
 )
 
 # Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
@@ -70,7 +68,6 @@ aliases=(
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  bashmarks
   progress
   bashmarks
 )
