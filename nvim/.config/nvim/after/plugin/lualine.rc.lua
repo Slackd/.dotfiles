@@ -1,6 +1,6 @@
 require('lualine').setup {
   options = {
-    theme = 'everforest',
+    theme = 'moonfly',
     component_separators = '|',
     section_separators = { left = '', right = '' },
   },
