@@ -9,6 +9,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'glepnir/dashboard-nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'sainnhe/sonokai'
+Plug 'mhartington/oceanic-next'
 
 " Tabs and Buffers
 Plug 'hoob3rt/lualine.nvim'
