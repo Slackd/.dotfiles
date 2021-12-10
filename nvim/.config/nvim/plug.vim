@@ -8,7 +8,6 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'ryanoasis/vim-devicons'
 Plug 'glepnir/dashboard-nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'sainnhe/sonokai'
 Plug 'mhartington/oceanic-next'
 
 " Tabs and Buffers
