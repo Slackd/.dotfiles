@@ -1,6 +1,6 @@
 # Alias's for multiple directory listing commands
-alias la='exa --long --all --header --git' # show hidden files
-alias ll='exa --long --header --git' # long listing format
+alias la='exa --long --all --header --git --icons' # show hidden files
+alias ll='exa --long --header --git --icons' # long listing format
 
 # Specific to me, for this system
 alias c='clear'
@@ -13,7 +13,9 @@ alias eX='nvim ~/.Xresources'
 alias eZ='nvim ~/.zshrc'
 alias e='nvim'
 alias vim='nvim'
-alias cdD='cd ~/Development'
+alias g='git'
+alias ga='git add'
+alias gm='git commit'
 
 # Starwars in terminal
 alias starwars='telnet towel.blinkenlights.nl'
