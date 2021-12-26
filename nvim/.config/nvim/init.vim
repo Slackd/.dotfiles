@@ -2,7 +2,7 @@
 " ---------------------------------------------------------------------
 
 " init autocmd
-" autocmd!
+autocmd!
 autocmd CursorHold * silent! checktime
 " set script encoding
 scriptencoding utf-8
@@ -112,18 +112,11 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 " Imports "{{{
 " ---------------------------------------------------------------------
 runtime ./plug.vim
-if has("unix")
-  let s:uname = system("uname -s")
-  " Do Mac stuff
-  if s:uname == "Darwin\n"
-    runtime ./macos.vim
-  endif
-endif
-
 runtime ./maps.vim
 "}}}
 
-" true color
+" Themeing "{{{
+" ---------------------------------------------------------------------
 if exists("&termguicolors") && exists("&winblend")
   syntax enable
   set termguicolors
@@ -140,6 +133,4 @@ endif
 " ---------------------------------------------------------------------
 set exrc
 "}}}
-
-" vim: set foldmethod=marker foldlevel=0:
 
