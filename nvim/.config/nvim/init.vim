@@ -10,7 +10,7 @@ scriptencoding utf-8
 if !1 | finish | endif
 
 set nocompatible
-set number
+set relativenumber
 syntax enable
 set fileencodings=utf-8
 set mouse=a
@@ -22,6 +22,10 @@ set nobackup
 set hlsearch
 set showcmd
 set cmdheight=1
+set emoji
+set redrawtime=10000
+set synmaxcol=180
+set re=1
 set laststatus=2
 set scrolloff=10
 set expandtab

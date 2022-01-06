@@ -12,6 +12,8 @@ Plug 'mhartington/oceanic-next'
 " Tabs and Buffers
 Plug 'hoob3rt/lualine.nvim'
 Plug 'akinsho/bufferline.nvim'
+Plug 'psliwka/vim-smoothie'
+Plug 'luochen1990/rainbow'
 
 " Git Plugins
 Plug 'tpope/vim-fugitive'
