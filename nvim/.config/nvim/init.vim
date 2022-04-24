@@ -23,6 +23,8 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/joshdick/onedark.vim' "OneDark
+Plug 'https://github.com/morhetz/gruvbox' "Gruv-box
+
 set encoding=UTF-8
 
 call plug#end()
