@@ -35,14 +35,14 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 
 syntax on
 set background=dark
-:colorscheme onedark
+:colorscheme gruvbox
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
 " air-line
 let g:airline_powerline_fonts = 1
-let g:airline_theme='onedark'
+let g:airline_theme='gruvbox'
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
