@@ -24,6 +24,7 @@ Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/joshdick/onedark.vim' "OneDark
 Plug 'https://github.com/morhetz/gruvbox' "Gruv-box
+Plug 'https://github.com/rose-pine/neovim' "Rose Pine
 
 set encoding=UTF-8
 
@@ -35,14 +36,14 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 
 syntax on
 set background=dark
-:colorscheme gruvbox
+:colorscheme rose-pine
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
 " air-line
 let g:airline_powerline_fonts = 1
-let g:airline_theme='gruvbox'
+let g:airline_theme='afterglow'
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
