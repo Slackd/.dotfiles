@@ -22,9 +22,8 @@ Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
-Plug 'https://github.com/joshdick/onedark.vim' "OneDark
-Plug 'https://github.com/morhetz/gruvbox' "Gruv-box
-Plug 'https://github.com/rose-pine/neovim' "Rose Pine
+Plug 'https://github.com/kyazdani42/nvim-web-devicons' "Lua fork of the devicons
+Plug 'https://github.com/romgrk/barbar.nvim' "bufferbar
 
 set encoding=UTF-8
 
@@ -44,7 +43,7 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 " air-line
 let g:airline_powerline_fonts = 1
-let g:airline_theme='github'
+let g:airline_theme='dark'
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
