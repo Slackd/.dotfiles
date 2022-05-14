@@ -36,14 +36,15 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 
 syntax on
 set background=dark
-:colorscheme sierra
+:colorscheme molokai
+let g:molokai_original = 1
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
 " air-line
 let g:airline_powerline_fonts = 1
-let g:airline_theme='sierra'
+let g:airline_theme='github'
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
