@@ -26,6 +26,9 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/kyazdani42/nvim-web-devicons' "Lua fork of the devicons
+Plug 'https://github.com/tomasiser/vim-code-dark' " Vim code dark theme
+
+
 
 set encoding=UTF-8
 
@@ -35,10 +38,18 @@ nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
 syntax on
 set background=dark
 set termguicolors
-:colorscheme molokai
+:colorscheme codedark
 let g:molokai_original = 1
 
 let g:NERDTreeDirArrowExpandable="+"
