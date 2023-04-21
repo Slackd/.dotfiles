@@ -33,7 +33,8 @@ return packer.startup(function(use)
   
   -- Current colorscheme
   use("bluz71/vim-nightfly-guicolors")
-
+  use('Mofiqul/vscode.nvim')
+  
   -- Backup Colorscheme
   use("tomasiser/vim-code-dark")
   
