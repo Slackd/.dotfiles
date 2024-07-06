@@ -40,6 +40,7 @@ autoload -Uz compinit && compinit
 zinit cdreplay -q
 
 # keybinds
+bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
@@ -80,6 +81,8 @@ alias dload='aria2c -x16 -j16 -s16 -c'
 alias init3='sudo systemctl set-default multi-user.target'
 alias init5='sudo systemctl set-default graphical.target'
 alias dnfu='sudo dnf up --refresh'
+alias pacup='sudo pacman -Syu'
+alias vim='nvim'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
