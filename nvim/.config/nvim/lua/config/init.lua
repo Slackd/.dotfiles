@@ -23,6 +23,9 @@ local opts = {
 	defaults = {
 		lazy = true,
 	},
+	ui = {
+		border = "rounded",
+	},
 	install = {
 		colorscheme = { "carbonfox" },
 	},

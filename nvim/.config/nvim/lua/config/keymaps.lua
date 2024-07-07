@@ -6,7 +6,7 @@ mapkey("<leader>bp", "bprevious", "n") -- Prev buffer
 mapkey("<leader>bb", "e #", "n") -- Switch to Other Buffer
 mapkey("<leader>`", "e #", "n") -- Switch to Other Buffer
 
--- Directory Navigatio}n
+-- Directory Navigation
 mapkey("<leader>m", "NvimTreeFocus", "n")
 mapkey("<leader>e", "NvimTreeToggle", "n")
 
