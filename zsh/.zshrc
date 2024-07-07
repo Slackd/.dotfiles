@@ -83,6 +83,7 @@ alias init5='sudo systemctl set-default graphical.target'
 alias dnfu='sudo dnf up --refresh'
 alias pacup='sudo pacman -Syu'
 alias vim='nvim'
+alias cpumon='watch cat /sys/devices/system/cpu/cpu[0-9]*/cpufreq/scaling_cur_freq'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
