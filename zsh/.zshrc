@@ -11,6 +11,9 @@ export PATH=/home/budhaditya/.local/bin:$PATH
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
+# FZF Colors
+export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
+
 # Download Zinit, if it's not there yet
 if [ ! -d "$ZINIT_HOME" ]; then
    mkdir -p "$(dirname $ZINIT_HOME)"
@@ -69,22 +72,9 @@ setopt hist_find_no_dups
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
-# Custom aliases
-alias c='clear'
-alias x='exit'
-alias dnfu='sudo dnf up --refresh'
-alias ls='eza -a -l --icons -h'
-alias init3='sudo systemctl set-default multi-user.target'
-alias init5='sudo systemctl set-default graphical.target'
-alias reload='source ~/.zshrc'
-alias dload='aria2c -x16 -j16 -s16 -c'
-alias init3='sudo systemctl set-default multi-user.target'
-alias init5='sudo systemctl set-default graphical.target'
-alias dnfu='sudo dnf up --refresh'
-alias pacup='sudo pacman -Syu'
-alias vim='nvim'
-alias cpumon='watch cat /sys/devices/system/cpu/cpu[0-9]*/cpufreq/scaling_cur_freq'
-alias inv='nvim $(fzf -m --preview="bat --color=always {}")'
+# Import aliases
+source ~/.zsh-aliases
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
