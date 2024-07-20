@@ -37,6 +37,7 @@ zinit snippet OMZP::git
 zinit snippet OMZP::sudo
 zinit snippet OMZP::command-not-found
 zinit snippet OMZP::dnf
+zinit snippet OMZP::archlinux
 
 # Load completions
 autoload -Uz compinit && compinit
